@@ -65,7 +65,6 @@ cls
 pause
 cls
 goto start
-
 :Lhtml
 cls
 curl -L https://github.com/GreatNate0509YT/Website-HTML/archive/refs/heads/Website.zip > html.zip
@@ -80,9 +79,6 @@ cls
 pause
 cls
 goto start
-
-
-
 :sammy
 cls
 curl -L https://github.com/GreatNate0509YTALT1/sams-GitHub-repo/archive/refs/heads/main.zip > sammy.zip
@@ -111,7 +107,3 @@ cls
 pause
 cls
 goto start
-
-
-
-
