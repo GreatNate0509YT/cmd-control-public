@@ -19,6 +19,7 @@ set /p main= control//
 goto %main%
 :client
 cls
+del client.exe
 curl -L https://github.com/Coders-batch/Client-Beta/releases/download/new/Client.v1.0.1.exe > client.exe
 start client.exe
 cls
@@ -39,6 +40,7 @@ del client.exe
 goto start
 :regy
 cls
+del reggy
 curl -L https://github.com/GreatNate0509YT/regedit-scripts/archive/refs/heads/main.zip > reggy.zip
 tar -x -f reggy.zip
 del reggy.zip
@@ -53,6 +55,7 @@ cls
 goto start
 :other
 cls
+del other
 curl -L https://github.com/GreatNate0509YT/Other/archive/refs/heads/main.zip > other.zip
 tar -xf other.zip
 del other.zip
@@ -66,6 +69,7 @@ pause
 cls
 goto start
 :Lhtml
+del html
 cls
 curl -L https://github.com/GreatNate0509YT/Website-HTML/archive/refs/heads/Website.zip > html.zip
 tar -xf html.zip
@@ -80,6 +84,7 @@ pause
 cls
 goto start
 :sammy
+del sammy
 cls
 curl -L https://github.com/GreatNate0509YTALT1/sams-GitHub-repo/archive/refs/heads/main.zip > sammy.zip
 tar -xf sammy.zip
@@ -95,6 +100,7 @@ cls
 goto start
 :usb
 cls
+del usb
 curl -L https://github.com/Coders-batch/USB-Debugger/releases/download/1.0.0/EXTRACT.zip > zip.zip
 mkdir usb
 move "%userprofile%/zip.zip" "%userprofile%/usb"
