@@ -3,7 +3,7 @@ this is a project to control all of my projects will be self compileing exes soo
 
 known errors: None
 
-todo: add a delete the program command
+todo: update when needed
 
 
 🔴 to download: 
